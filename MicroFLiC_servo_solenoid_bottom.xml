@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/jakub/KiCAD/MicroFLiC_servo_solenoid_bottom_1_1/MicroFLiC_servo_solenoid_bottom.sch</source>
-    <date>Wed 02 Mar 2016 11:32:25 GMT</date>
+    <date>Wed 02 Mar 2016 11:46:01 GMT</date>
     <tool>Eeschema 4.0.2-4+6225~38~ubuntu14.04.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -651,7 +651,7 @@
         <field name="Order Code">1466524</field>
         <field name="Alt. Supplier">Mouser</field>
         <field name="Alt. Order Code">512-1N4148WS</field>
-        <field name="Note">Small signal SOD-323 diode</field>
+        <field name="Note">Optional small signal SOD-323 diode</field>
       </fields>
       <libsource lib="device" part="D"/>
       <sheetpath names="/shutterPWM/" tstamps="/54E08E01/"/>
@@ -668,7 +668,7 @@
         <field name="Order Code">1466524</field>
         <field name="Alt. Supplier">Mouser</field>
         <field name="Alt. Order Code">512-1N4148WS</field>
-        <field name="Note">Small signal SOD-323 diode</field>
+        <field name="Note">Optional small signal SOD-323 diode</field>
       </fields>
       <libsource lib="device" part="D"/>
       <sheetpath names="/shutterPWM/" tstamps="/54E08E01/"/>
@@ -944,11 +944,11 @@
     <library logical="jakub">
       <uri>/home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib</uri>
     </library>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
-    </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
   </libraries>
   <nets>

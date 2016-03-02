@@ -96,8 +96,8 @@ F 3 "" H 1950 3300 60  0000 C CNN
 	1    1950 3300
 	1    0    0    -1  
 $EndComp
-Text Notes 4500 3650 0    60   ~ 0
-Coil supression diodes:\nDo not connect for fast\nshutter operation
+Text Notes 3700 3850 0    60   ~ 0
+Optional coil bounce supression diodes D5 and D6:\nDo not connect for fast shutter operation\nConnect for higher circuit reliability
 $Comp
 L C C4
 U 1 1 53A2CAC9
@@ -942,7 +942,7 @@ F 7 "Farnell" H 5100 2300 60  0001 C CNN "Supplier"
 F 8 "1466524" H 5100 2300 60  0001 C CNN "Order Code"
 F 9 "Mouser" H 5100 2300 60  0001 C CNN "Alt. Supplier"
 F 10 "512-1N4148WS" H 5100 2300 60  0001 C CNN "Alt. Order Code"
-F 11 "Small signal SOD-323 diode" H 5100 2300 60  0001 C CNN "Note"
+F 11 "Optional small signal SOD-323 diode" H 5100 2300 60  0001 C CNN "Note"
 	1    5100 2300
 	0    1    1    0   
 $EndComp
@@ -961,8 +961,16 @@ F 7 "Farnell" H 5100 5500 60  0001 C CNN "Supplier"
 F 8 "1466524" H 5100 5500 60  0001 C CNN "Order Code"
 F 9 "Mouser" H 5100 5500 60  0001 C CNN "Alt. Supplier"
 F 10 "512-1N4148WS" H 5100 5500 60  0001 C CNN "Alt. Order Code"
-F 11 "Small signal SOD-323 diode" H 5100 5500 60  0001 C CNN "Note"
+F 11 "Optional small signal SOD-323 diode" H 5100 5500 60  0001 C CNN "Note"
 	1    5100 5500
 	0    1    1    0   
 $EndComp
+Text Notes 4900 2700 0    60   ~ 0
+Optional
+Text Notes 4900 5900 0    60   ~ 0
+Optional
+Text Notes 5550 1700 0    60   ~ 0
+Voltage selection
+Text Notes 5550 4900 0    60   ~ 0
+Voltage selection
 $EndSCHEMATC
