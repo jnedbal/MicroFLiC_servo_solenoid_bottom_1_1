@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/jakub/KiCAD/MicroFLiC_servo_solenoid_bottom_1_1/MicroFLiC_servo_solenoid_bottom.sch)
-    (date "Mon 29 Feb 2016 12:50:38 GMT")
+    (date "Wed 02 Mar 2016 11:30:25 GMT")
     (tool "Eeschema 4.0.2-4+6225~38~ubuntu14.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -53,7 +53,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 54DF35DA))
     (comp (ref P4)
-      (value Jack_3.5mm_3pin)
+      (value "3.5mm jack")
       (footprint jakub:MJ4435-R)
       (fields
         (field (name "Part Number") MJ4435-R)
@@ -127,7 +127,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 55698B6F))
     (comp (ref P7)
-      (value RCA_3)
+      (value "RCA jack")
       (footprint jakub:PSG01544)
       (fields
         (field (name "Part Number") PSG01540)
@@ -141,7 +141,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 54E05655))
     (comp (ref P6)
-      (value RCA_3)
+      (value "RCA jack")
       (footprint jakub:PSG01544)
       (fields
         (field (name "Part Number") PSG01540)
@@ -155,7 +155,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 54E05653))
     (comp (ref P5)
-      (value Jack_3.5mm_3pin)
+      (value "3.5mm jack")
       (footprint jakub:MJ4435-R)
       (fields
         (field (name "Part Number") MJ4435-R)

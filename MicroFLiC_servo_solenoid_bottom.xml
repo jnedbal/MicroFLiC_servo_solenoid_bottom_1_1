@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/jakub/KiCAD/MicroFLiC_servo_solenoid_bottom_1_1/MicroFLiC_servo_solenoid.sch</source>
-    <date>Sun 28 Feb 2016 00:31:57 GMT</date>
-    <tool>Eeschema (2015-12-10 BZR 6367)-product</tool>
+    <source>/home/jakub/KiCAD/MicroFLiC_servo_solenoid_bottom_1_1/MicroFLiC_servo_solenoid_bottom.sch</source>
+    <date>Wed 02 Mar 2016 11:27:25 GMT</date>
+    <tool>Eeschema 4.0.2-4+6225~38~ubuntu14.04.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Flow Unit Shield</title>
         <company>King's College London</company>
         <rev>1.2</rev>
         <date>18 Jun 2014</date>
-        <source>MicroFLiC_servo_solenoid.sch</source>
+        <source>MicroFLiC_servo_solenoid_bottom.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -63,7 +63,7 @@
       <tstamp>54DF35DA</tstamp>
     </comp>
     <comp ref="P4">
-      <value>Jack_3.5mm_3pin</value>
+      <value>3.5mm jack</value>
       <footprint>jakub:MJ4435-R</footprint>
       <fields>
         <field name="Part Number">MJ4435-R</field>
@@ -147,7 +147,7 @@
       <tstamp>55698B6F</tstamp>
     </comp>
     <comp ref="P7">
-      <value>RCA_3</value>
+      <value>RCA jack</value>
       <footprint>jakub:PSG01544</footprint>
       <fields>
         <field name="Part Number">PSG01540</field>
@@ -163,7 +163,7 @@
       <tstamp>54E05655</tstamp>
     </comp>
     <comp ref="P6">
-      <value>RCA_3</value>
+      <value>RCA jack</value>
       <footprint>jakub:PSG01544</footprint>
       <fields>
         <field name="Part Number">PSG01540</field>
@@ -179,7 +179,7 @@
       <tstamp>54E05653</tstamp>
     </comp>
     <comp ref="P5">
-      <value>Jack_3.5mm_3pin</value>
+      <value>3.5mm jack</value>
       <footprint>jakub:MJ4435-R</footprint>
       <fields>
         <field name="Part Number">MJ4435-R</field>
@@ -638,6 +638,7 @@
     </comp>
     <comp ref="D5">
       <value>1N4148</value>
+      <footprint>Diodes_SMD:SOD-323</footprint>
       <fields>
         <field name="Part Number">1N4148WS</field>
         <field name="Manufacturer">Multicomp</field>
@@ -654,6 +655,7 @@
     </comp>
     <comp ref="D6">
       <value>1N4148</value>
+      <footprint>Diodes_SMD:SOD-323</footprint>
       <fields>
         <field name="Part Number">1N4148WS</field>
         <field name="Manufacturer">Multicomp</field>
@@ -935,14 +937,14 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="jakub">
-      <uri>/home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib</uri>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
     <library logical="conn">
-      <uri>/usr/local/share/kicad/library/conn.lib</uri>
+      <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
-    <library logical="device">
-      <uri>/usr/local/share/kicad/library/device.lib</uri>
+    <library logical="jakub">
+      <uri>/home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib</uri>
     </library>
   </libraries>
   <nets>
