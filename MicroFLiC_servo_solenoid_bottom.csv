@@ -10,8 +10,8 @@ P10 ,1,1x4 socket strip,jakub:ESQ-104-33-G-S,,ESQ-104-33-G-S,Samtec,SIL-4,Farnel
 P11 P12 ,2,2x3 header strip R/A,Pin_Headers:Pin_Header_Angled_2x03,,2213R-06G,Multicomp,DIL-6,Farnell,1593449,Mouser,517-9612065604AR,2x3 right-angle header strip
 P2 ,1,1x14 socket strip,jakub:ESQ-114-33-G-S,,ESQ-114-33-G-S,Samtec,SIL-14,Farnell,1930609,Samtec,ESQ-114-33-G-S,1x14 ESQ series elevated socket strip
 P3 ,1,12-way Micro-MaTch,jakub:1-188275-2,,8-188275-2,TE Connectivity,Micro-MaTch SMD,Farnell,3784757,Mouser,571-8-188275-2,12-way SMD Micro-MaTch connector
-P4 P5 ,2,3.5mm jack,jakub:MJ4435-R,,MJ4435-R,Multicomp,R/A 3.5mm jack,Farnell,1638670,N/A,,Right-angle SMD 3.5mm 3-pin jack
-P6 P7 ,2,RCA jack,jakub:PSG01544,,PSG01540,Pro Signal,R/A RCA jack,Farnell,1280698,N/A,,Right-angle RCA jack
+P4 P5 ,2,3.5mm jack,jakub:MJ4435-R,,MJ4435-R,Multicomp,R/A 3.5mm jack,Farnell,1638670,N/A,N/A,Right-angle SMD 3.5mm 3-pin jack
+P6 P7 ,2,RCA jack,jakub:PSG01544,,PSG01540,Pro Signal,R/A RCA jack,Farnell,1280698,N/A,N/A,Right-angle RCA jack
 P8 ,1,1x6 socket strip,jakub:ESQ-106-33-G-S,,ESQ-106-33-G-S,Samtec,SIL-6,Farnell,1928680,Samtec,ESQ-106-33-G-S,1x6 ESQ series elevated socket strip
 P9 ,1,1x4 header strip,Pin_Headers:Pin_Header_Straight_1x04,,M20-9990445,Harwin,SIL-4,Farnell,1926221,Mouser,855-M20-9990445,1x4 header strip
 R1 R2 ,2,270k,Resistors_SMD:R_0805,,MCSR08X2703FTL,Multicomp,0805,Farnell,2074426,Mouser,ERJ-6ENF2703V,270kΩ/1% 0805 resistor

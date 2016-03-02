@@ -184,7 +184,8 @@ F 6 "R/A 3.5mm jack" H 2700 6250 60  0001 C CNN "Package"
 F 7 "Farnell" H 2700 6250 60  0001 C CNN "Supplier"
 F 8 "1638670" H 2700 6250 60  0001 C CNN "Order Code"
 F 9 "N/A" H 2700 6250 60  0001 C CNN "Alt. Supplier"
-F 10 "Right-angle SMD 3.5mm 3-pin jack" H 2700 6250 60  0001 C CNN "Note"
+F 10 "N/A" H 2700 6250 60  0001 C CNN "Alt. Order Code"
+F 11 "Right-angle SMD 3.5mm 3-pin jack" H 2700 6250 60  0001 C CNN "Note"
 	1    2700 6250
 	-1   0    0    1   
 $EndComp
@@ -338,7 +339,8 @@ F 6 "R/A RCA jack" H 7700 2250 60  0001 C CNN "Package"
 F 7 "Farnell" H 7700 2250 60  0001 C CNN "Supplier"
 F 8 "1280698" H 7700 2250 60  0001 C CNN "Order Code"
 F 9 "N/A" H 7700 2250 60  0001 C CNN "Alt. Supplier"
-F 10 "Right-angle RCA jack" H 7700 2250 60  0001 C CNN "Note"
+F 10 "N/A" H 7700 2250 60  0001 C CNN "Alt. Order Code"
+F 11 "Right-angle RCA jack" H 7700 2250 60  0001 C CNN "Note"
 	1    7700 2250
 	1    0    0    -1  
 $EndComp
@@ -356,7 +358,8 @@ F 6 "R/A RCA jack" H 7700 1750 60  0001 C CNN "Package"
 F 7 "Farnell" H 7700 1750 60  0001 C CNN "Supplier"
 F 8 "1280698" H 7700 1750 60  0001 C CNN "Order Code"
 F 9 "N/A" H 7700 1750 60  0001 C CNN "Alt. Supplier"
-F 10 "Right-angle RCA jack" H 7700 1750 60  0001 C CNN "Note"
+F 10 "N/A" H 7700 1750 60  0001 C CNN "Alt. Order Code"
+F 11 "Right-angle RCA jack" H 7700 1750 60  0001 C CNN "Note"
 	1    7700 1750
 	1    0    0    -1  
 $EndComp
@@ -548,7 +551,8 @@ F 6 "R/A 3.5mm jack" H 2700 7150 60  0001 C CNN "Package"
 F 7 "Farnell" H 2700 7150 60  0001 C CNN "Supplier"
 F 8 "1638670" H 2700 7150 60  0001 C CNN "Order Code"
 F 9 "N/A" H 2700 7150 60  0001 C CNN "Alt. Supplier"
-F 10 "Right-angle SMD 3.5mm 3-pin jack" H 2700 7150 60  0001 C CNN "Note"
+F 10 "N/A" H 2700 7150 60  0001 C CNN "Alt. Order Code"
+F 11 "Right-angle SMD 3.5mm 3-pin jack" H 2700 7150 60  0001 C CNN "Note"
 	1    2700 7150
 	-1   0    0    1   
 $EndComp
