@@ -14,9 +14,10 @@ P4 P5 ,2,3.5mm jack,jakub:MJ4435-R,,MJ4435-R,Multicomp,R/A 3.5mm jack,Farnell,16
 P6 P7 ,2,RCA jack,jakub:PSG01544,,PSG01540,Pro Signal,R/A RCA jack,Farnell,1280698,N/A,N/A,Right-angle RCA jack
 P8 ,1,1x6 socket strip,jakub:ESQ-106-33-G-S,,ESQ-106-33-G-S,Samtec,SIL-6,Farnell,1928680,Samtec,ESQ-106-33-G-S,1x6 ESQ series elevated socket strip
 P9 ,1,1x4 header strip,Pin_Headers:Pin_Header_Straight_1x04,,M20-9990445,Harwin,SIL-4,Farnell,1926221,Mouser,855-M20-9990445,1x4 header strip
-R1 R2 ,2,270k,Resistors_SMD:R_0805,,MCSR08X2703FTL,Multicomp,0805,Farnell,2074426,Mouser,ERJ-6ENF2703V,270kΩ/1% 0805 resistor
-R3 R4 R5 R6 ,4,10k,Resistors_SMD:R_0805,,MCMR08X1002FTL,Multicomp,0805,Farnell,2073607,Mouser,71-CRCW0805-10K-E3,10kΩ/1% 0805 resistor
-R7 ,1,0R,Resistors_SMD:R_0805,,MCMR08X000 PTL,Multicomp,0805,Farnell,2073603,Mouser,667-ERJ-6GEY0R00V,0Ω 0805 resistor
+R1 R4 R5 ,3,270k,Resistors_SMD:R_0805,,MCSR08X2703FTL,Multicomp,0805,Farnell,2074426,Mouser,ERJ-6ENF2703V,270kΩ/1% 0805 resistor
+R10 ,1,0R,Resistors_SMD:R_0805,,MCMR08X000 PTL,Multicomp,0805,Farnell,2073603,Mouser,667-ERJ-6GEY0R00V,0Ω 0805 resistor
+R2 R3 ,2,1k5,Resistors_SMD:R_0805,,MCWR08X1501FTL,Multicomp,0805,Farnell,2447592,Mouser,71-CRCW0805-1.5K-E3,1.5kΩ/1% 0805 resistor
+R6 R7 R8 R9 ,4,10k,Resistors_SMD:R_0805,,MCMR08X1002FTL,Multicomp,0805,Farnell,2073607,Mouser,71-CRCW0805-10K-E3,10kΩ/1% 0805 resistor
 U1 ,1,PCA9306DP,Housings_SSOP:TSSOP-8_3x3mm_Pitch0.65mm,,PCA9306DP,NXP Semiconductors,TSSOP-8,Farnell,2212072,Mouser,771-PCA9306DP-T,Dual I²C-bus voltage translator
 U2 U3 ,2,DRV103,Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm,,DRV103UG4,Texas Instruments,SOIC-8,Farnell,1206892,Mouser,595-DRV103UG4,PWM low-side driver for solenoids
 U4 ,1,MCP4728,Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm,,MCP4728-E/UN,Microchip,MSOP-10,Farnell,1800217,Mouser,579-MCP4728-E/UN,12-bit quad digital-to-analog converter with EEPROM memory
