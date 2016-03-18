@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/jakub/KiCAD/MicroFLiC_servo_solenoid_bottom_1_1/MicroFLiC_servo_solenoid_bottom.sch</source>
-    <date>Fri 18 Mar 2016 19:56:18 GMT</date>
+    <date>Fri 18 Mar 2016 20:47:50 GMT</date>
     <tool>Eeschema 4.0.2-4+6225~38~ubuntu14.04.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -233,17 +233,17 @@
       <tstamp>54D95FBE</tstamp>
     </comp>
     <comp ref="C1">
-      <value>100n</value>
+      <value>100p</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
-        <field name="Part Number">MC0805B104K250CT</field>
-        <field name="Manufacturer">Multicomp</field>
+        <field name="Part Number">CGA4C2C0G2A101J060AA</field>
+        <field name="Manufacturer">TDK</field>
         <field name="Package">0805</field>
         <field name="Supplier">Farnell</field>
-        <field name="Order Code">1759166</field>
+        <field name="Order Code">2210931</field>
         <field name="Alt. Supplier">Mouser</field>
-        <field name="Alt. Order Code">710-885012207098</field>
-        <field name="Note">100nF/50V X7R 0805 ceramic capacitor</field>
+        <field name="Alt. Order Code">810-CGA4C2C0G2A101J</field>
+        <field name="Note">100pF/100V C0G(NP0) 0805 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/I2C/" tstamps="/54D957C7/"/>
@@ -1057,14 +1057,14 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="jakub">
-      <uri>/home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib</uri>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
+    <library logical="jakub">
+      <uri>/home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib</uri>
     </library>
   </libraries>
   <nets>

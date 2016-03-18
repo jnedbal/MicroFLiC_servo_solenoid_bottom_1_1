@@ -1,7 +1,8 @@
 Reference, Quantity, Value, Footprint, Datasheet, Part Number, Manufacturer, Package, Supplier, Order Code, Alt. Supplier, Alt. Order Code, Note
-C1 C8 C9 ,3,100n,Capacitors_SMD:C_0805,,MC0805B104K250CT,Multicomp,0805,Farnell,1759166,Mouser,710-885012207098,100nF/50V X7R 0805 ceramic capacitor
+C1 ,1,100p,Capacitors_SMD:C_0805,,CGA4C2C0G2A101J060AA,TDK,0805,Farnell,2210931,Mouser,810-CGA4C2C0G2A101J,100pF/100V C0G(NP0) 0805 ceramic capacitor
 C2 C3 ,2,10n,Capacitors_SMD:C_0805,,MCU0805R103KCT,Multicomp,0805,Farnell,9406352,Mouser,710-885012207092,10nF/50V X7R 0805 ceramic capacitor
 C4 C5 C6 C7 ,4,4u7/25V,Capacitors_SMD:C_0805,,GRM21BR61E475MA12L,Murata,0805,Farnell,2362111,Mouser,81-GRM21BR61E475MA2L,4.7μF/25V X5R 0805 ceramic capacitor
+C8 C9 ,2,100n,Capacitors_SMD:C_0805,,MC0805B104K250CT,Multicomp,0805,Farnell,1759166,Mouser,710-885012207098,100nF/50V X7R 0805 ceramic capacitor
 D1 D2 ,2,LED RED,LEDs:LED-1206,,HSMS-C150,Broadcom,1206,Farnell,2497366,Mouser,630-HSMS-C150,Red 1206 LED
 D3 D5 ,2,LED YELLOW,LEDs:LED-1206,,HSMY-C150,Broadcom,1206,Farnell,2497382,Mouser,630-HSMY-C150,Yellow 1206 LED
 D4 D6 D7 D8 ,4,1N4148,jakub:SOD-323,,1N4148WS,Multicomp,SOD-323,Farnell,1466524,Mouser,512-1N4148WS,Optional small signal SOD-323 diode
